@@ -1,6 +1,6 @@
 {
     "name": "rleroi/zoeken.kvk.nl-php",
-    "description": "Uses the free KvK.nl JSON API to get company information in PHP.",
+    "description": "Uses the free KvK.nl (Kamer van Koophandel) JSON API to get company information in PHP.",
     "license": "Apache license",
     "authors": [
         {
@@ -9,4 +9,9 @@
         }
     ],
     "require": {}
+	"autoload": {
+        "psr-0": {
+            "Kvk": "src/"
+        }
+    }
 }

@@ -12,7 +12,7 @@
 <div class="container">
 <?php
 try {
-	require_once('vendor/autoload.php');
+	require_once __DIR__ .'vendor/autoload.php';
 
 	@$query = urldecode($_GET['q']) ?: '';
 	@$limit = urldecode((int) $_GET['limit']) ?: 0;
