@@ -1,0 +1,12 @@
+{
+    "name": "rleroi/zoeken.kvk.nl-php",
+    "description": "Uses the free KvK.nl JSON API to get company information in PHP.",
+    "license": "Apache license",
+    "authors": [
+        {
+            "name": "R. Leroi",
+            "email": "r.leroi@live.nl"
+        }
+    ],
+    "require": {}
+}

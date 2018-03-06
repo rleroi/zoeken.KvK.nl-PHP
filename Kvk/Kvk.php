@@ -1,5 +1,7 @@
 <?php
 
+namespace Kvk
+
 class Kvk {
 	private static $apiUrl = 'https://zoeken.kvk.nl/JsonSearch.ashx';
 	
